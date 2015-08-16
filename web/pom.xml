@@ -31,10 +31,16 @@
 		<!-- Test -->
 		<junit.version>4.11</junit.version>
 
+ 		<mysql.jdbc.version>5.1.21</mysql.jdbc.version>  
 	</properties>
 	
 	<dependencies>
-	
+		<!-- mysql的依赖 -->
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<version>${mysql.jdbc.version}</version>
+		</dependency>
 		<!-- Spring MVC -->
 		<dependency>
 			<groupId>org.springframework</groupId>
