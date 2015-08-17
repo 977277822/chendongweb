@@ -18,8 +18,6 @@
 		<jstl.version>1.2</jstl.version>
 		<servlet.version>2.5</servlet.version>
 
-
-
 		<!-- Spring -->
 		<spring-framework.version>3.2.3.RELEASE</spring-framework.version>
 
@@ -33,12 +31,18 @@
 		<!-- Test -->
 		<junit.version>4.11</junit.version>
 
+		<!-- jdbc -->
 		<mysql.jdbc.version>5.1.21</mysql.jdbc.version>
+		
+		<!-- springframework -->
 		<springframework.version>4.1.3.RELEASE</springframework.version>
+		
+		<!-- springframework-orm -->
 		<springframework-orm.version>4.1.3.RELEASE</springframework-orm.version>
 	</properties>
 
 	<dependencies>
+		<!-- spring-framework-orm -->
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-orm</artifactId>
