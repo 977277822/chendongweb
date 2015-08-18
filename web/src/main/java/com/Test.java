@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
 @RequestMapping("test")
-public class Test {
+public class Test{
 
 	@RequestMapping("add")
 	public void add(Integer id , String uname) {
