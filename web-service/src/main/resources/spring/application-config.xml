@@ -26,7 +26,7 @@ http://www.springframework.org/schema/beans/spring-beans.xsd">
 			</props>
 		</property>
 		<!-- 注解扫描的包 -->
-		<property name="packagesToScan" value="com"/>
+		<property name="packagesToScan" value="com.dongchen.entity"/>
 	</bean>
 
 
