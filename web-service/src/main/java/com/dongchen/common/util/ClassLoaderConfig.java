@@ -1,4 +1,4 @@
-package com.dongchen.util;
+package com.dongchen.common.util;
 
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
